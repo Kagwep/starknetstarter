@@ -1,6 +1,6 @@
 # Cairo Programming Language Study
 
-This repository serves as documentation for my everyday activities in studying the Cairo programming language. Cairo is a powerful programming language used for smart contract development on the Ethereum blockchain.
+This repository serves as documentation for  activities in studying the Cairo programming language and Starknet
 
 ## Day 1
 
