@@ -1,2 +1,13 @@
-mod addtwo;
-mod primeornot;
+// mod addtwo;
+// mod primeornot;
+// mod controlflow;
+// mod pbvpbr;
+// mod sortarray;
+
+// mod numbersdet;
+
+// mod factorial;
+
+// mod rectangle;
+
+mod palindrome;

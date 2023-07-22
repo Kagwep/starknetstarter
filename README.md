@@ -126,6 +126,28 @@ This section of the README explains how functions work in Cairo programming lang
 ### Challenges
 
 ## Day 2
+## Common Collections
+
+Cairo1 provides a set of common collection types that can be used to store and manipulate data. These collections are designed to be efficient, flexible, and easy to use.
+
+### Array
+
+An array is a collection of elements of the same type. You can create and use array methods by importing the `array::ArrayTrait` trait.
+
+Arrays are immutable, which means that it is not possible to modify the elements of an array once they've been added. You can only add elements to the end of an array and remove elements from the front of an array.
+
+To access array elements, you can use the `get()` or `at()` array methods.
+
+* The `get()` method returns an `Option<Box<@T>>`, which means it returns an option to a Box type containing a snapshot to the element at the specified index if that element exists in the array. If the element doesn't exist, `get` returns `None`.
+* The `at()` method, on the other hand, directly returns a snapshot to the element at the specified index using the `unbox()` operator to extract the value stored in a box. If the index is out of bounds, a panic error occurs.
+
+### Span
+
+A `Span` is a struct that represents a snapshot of an `Array`. It is designed to provide safe and controlled access to the elements of an array without modifying the original array.
+
+To create a `Span` of an `Array`, call the `span()` method.
+
+
 
 ### Activities
 
