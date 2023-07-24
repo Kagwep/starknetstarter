@@ -10,4 +10,21 @@
 
 // mod rectangle;
 
-mod palindrome;
+// mod palindrome;
+
+// mod overloading;
+
+
+// mod contact;
+
+
+// mod weather;
+
+// mod libsys;
+
+
+// mod gamingapp;
+
+// mod commerce;
+
+mod ride;
