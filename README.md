@@ -1,10 +1,72 @@
+# Starknet
+
+Starknet is a  permissionless decentralized Validity-Rollup, also referred to as a ZK-Rollup, built to operate as a Layer 2 network on top of Ethereum. It introduces an innovative approach to achieving unlimited scalability for computational tasks within any decentralized application (dApp) while maintaining the unparalleled composability and security of the Ethereum ecosystem. This is made possible through Starknet's utilization of STARK, a highly secure and scalable cryptographic proof system.
+
+## Features
+
+- **Unlimited Scalability**: Starknet empowers dApps with the potential for unlimited scalability in their computations, ensuring that the growth of your application is not hindered by computational limitations.
+
+- **Preserved Composability and Security**: Leveraging Starknet doesn't compromise the composability and security inherent to Ethereum. Your dApp can seamlessly interact with other contracts and assets on the Ethereum blockchain.
+
+- **Built on STARK**: Starknet relies on the STARK cryptographic proof system, renowned for its safety and scalability. This ensures that your dApp's computations are verifiable, efficient, and secure.
+
+- **Cairo Language**: Starknet contracts and the Starknet OS are developed using the Cairo programming language. This powerful language facilitates the deployment and scaling of various use cases, regardless of their underlying business logic.
+
+## Getting Started
+
+To begin utilizing Starknet for your dApp, follow these steps:
+
+1. **Install Dependencies**: Make sure you have the required dependencies installed to start developing with Starknet and the Cairo programming language.
+
+2. **Write Starknet Contracts**: Develop your dApp's smart contracts using the Cairo language. Leverage the documentation and resources available to create efficient and secure computations.
+
+3. **Deploy and Scale**: Deploy your Starknet contracts and leverage the power of Starknet to scale your dApp's computations without compromising security or composability.
+
+4. **Interact with Ethereum**: Seamlessly interact with Ethereum's mainnet and other Layer 1 protocols while benefiting from Starknet's scalability.
+
+## Documentation
+
+[Explore the comprehensive documentation to gain in-depth insights into utilizing Starknet for your dApp. The documentation covers everything from setting up your development environment to deploying and optimizing contracts for maximum scalability.](https://docs.starknet.io/documentation/)
+
+
 # Cairo Programming Language Study
 
 This repository serves as documentation for  activities in studying the Cairo programming language and Starknet
 
+# Cairo
+
+Cairo is a unique programming language designed specifically for a virtual CPU known as Cairo. Unlike traditional CPUs tailored for real-world constraints, the Cairo CPU is optimized for cryptographic purposes. Its standout feature is its exceptional proficiency in proving the execution of programs it processes. This capability enables you to undertake resource-intensive operations on an untrusted machine, subsequently allowing you to swiftly validate the outcomes on a more cost-effective device.
+
+## Evolution of Cairo
+
+The evolution of Cairo encompasses two main versions:
+
+### Cairo 0
+
+In its initial iteration, Cairo 0 was engineered to compile directly into Cairo CPU assembly (CASM). This assembly language formed the foundation for executing programs on the Cairo virtual CPU.
+
+### Cairo 1
+
+Cairo 1 represents a significant advancement by introducing a higher-level programming language. Code written in Cairo 1 is compiled into an intermediary representation named Sierra. From Sierra, the compilation process extends to generate a secure subset of CASM. This  approach guarantees the provability of resulting CASM code, even in cases where computations encounter failures.
+
+[learn more](https://book.cairo-lang.org/)
+
 ## Day 1
 
-### Activities
+## Activities
+
+ ### Installation
+
+ [Follow this guide](https://book.cairo-lang.org/ch01-01-installation.html)
+
+## Learning Cairo Concepts
+
+To gain a comprehensive understanding of Cairo's concepts and their  implementation, Refer to the following resource: [Cairo Book](https://book.cairo-lang.org/)
+
+This next section  delves into Cairo's fundamental concepts. Each concept is accompanied with hands-on examples i.e its equivalent code implementation, ensuring you grasp both the theoretical and practical aspects of Cairo programming.
+
+
+The next section assumes  that you’ve successfuly  installed Cairo
 
 # Cairo Variables and Mutability
 
@@ -34,6 +96,7 @@ This section of the README provides an overview of variables and mutability in t
 - The new variable overshadows the previous one within its scope.
 - Shadowing allows for reusing variable names and can be useful for type conversions or creating new values.
 
+[Sample voting project demonstrating above]()
 ---
 # Cairo Data Types
 
